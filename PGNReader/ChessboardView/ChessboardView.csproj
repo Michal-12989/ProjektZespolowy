@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\PieceImages\black-bishop.png" />
+    <None Remove="Assets\PieceImages\black-king.png" />
+    <None Remove="Assets\PieceImages\black-knight.png" />
+    <None Remove="Assets\PieceImages\black-pawn.png" />
+    <None Remove="Assets\PieceImages\black-queen.png" />
+    <None Remove="Assets\PieceImages\black-rook.png" />
+    <None Remove="Assets\PieceImages\white-bishop.png" />
+    <None Remove="Assets\PieceImages\white-king.png" />
+    <None Remove="Assets\PieceImages\white-knight.png" />
+    <None Remove="Assets\PieceImages\white-pawn.png" />
+    <None Remove="Assets\PieceImages\white-queen.png" />
+    <None Remove="Assets\PieceImages\white-rook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PGNReader\PGNReader.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\PieceImages\black-bishop.png" />
+    <Resource Include="Assets\PieceImages\black-king.png" />
+    <Resource Include="Assets\PieceImages\black-knight.png" />
+    <Resource Include="Assets\PieceImages\black-pawn.png" />
+    <Resource Include="Assets\PieceImages\black-queen.png" />
+    <Resource Include="Assets\PieceImages\black-rook.png" />
+    <Resource Include="Assets\PieceImages\white-bishop.png" />
+    <Resource Include="Assets\PieceImages\white-king.png" />
+    <Resource Include="Assets\PieceImages\white-knight.png" />
+    <Resource Include="Assets\PieceImages\white-pawn.png" />
+    <Resource Include="Assets\PieceImages\white-queen.png" />
+    <Resource Include="Assets\PieceImages\white-rook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Games\" />
+  </ItemGroup>
+
+</Project>

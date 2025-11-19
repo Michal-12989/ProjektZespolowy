@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PGNReader", "PGNReader\PGNReader.csproj", "{1CE05449-DE30-4256-8700-8E15C498E001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessboardView", "ChessboardView\ChessboardView.csproj", "{6EF0825A-6B9D-4C62-B2D7-386BF1F23029}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1CE05449-DE30-4256-8700-8E15C498E001} = {1CE05449-DE30-4256-8700-8E15C498E001}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CE05449-DE30-4256-8700-8E15C498E001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE05449-DE30-4256-8700-8E15C498E001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE05449-DE30-4256-8700-8E15C498E001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE05449-DE30-4256-8700-8E15C498E001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF0825A-6B9D-4C62-B2D7-386BF1F23029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF0825A-6B9D-4C62-B2D7-386BF1F23029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF0825A-6B9D-4C62-B2D7-386BF1F23029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF0825A-6B9D-4C62-B2D7-386BF1F23029}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {210A35F6-29A1-4693-9C44-63784C6FD6BC}
+	EndGlobalSection
+EndGlobal
